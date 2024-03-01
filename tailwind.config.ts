@@ -26,6 +26,9 @@ const config: Config = {
       'pale-blue': '#FCFCFF',
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-pretendard)'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
