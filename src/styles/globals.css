@@ -32,16 +32,16 @@ body {
   }
 
   /* Typography */
-  .bold-16 {
-    @apply text-[16px]/[175%] tracking-[-0.1px] font-bold;
+  .bold-16-1 {
+    @apply text-[16px]/[175%] tracking-[-1%] font-bold;
   }
-  .bold-14 {
-    @apply text-[14px]/[200%] tracking-[-0.2px] font-bold;
+  .bold-16-2 {
+    @apply text-[16px]/[175%] tracking-[-2%] font-bold;
   }
-  .regular-14 {
-    @apply text-[14px]/[200%] tracking-[-0.2px] font-normal;
+  .bold-14-2 {
+    @apply text-[14px]/[200%] tracking-[-2%] font-bold;
   }
-  .regular-12 {
-    @apply text-[12px]/[200%] tracking-[-0.2px] font-normal;
+  .regular-14-2 {
+    @apply text-[14px]/[200%] tracking-[-2%] font-normal;
   }
 }
