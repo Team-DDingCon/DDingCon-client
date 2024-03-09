@@ -46,7 +46,7 @@ body {
   }
 
   .default-button {
-    @apply rounded-[8px] w-full h-[60px] cursor-pointer flex items-center justify-center;
+    @apply rounded-[8px] w-full h-[60px] bold-16-2 cursor-pointer flex items-center justify-center;
   }
 }
 
