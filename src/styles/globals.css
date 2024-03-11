@@ -44,4 +44,12 @@ body {
   .regular-14-2 {
     @apply text-[14px]/[200%] tracking-[-2%] font-normal;
   }
+
+
+}
+
+@layer components {
+  .default-button {
+    @apply rounded-[8px] w-full h-[60px] bold-16-2 cursor-pointer flex items-center justify-center;
+  }
 }
