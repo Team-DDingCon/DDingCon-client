@@ -26,7 +26,9 @@ const pretendard = localFont({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${pretendard.variable}`}>
+    <main
+      className={`w-full max-w-[480px] mx-auto h-screen overflow-scroll ${pretendard.variable}`}
+    >
       <Component {...pageProps} />
     </main>
   );

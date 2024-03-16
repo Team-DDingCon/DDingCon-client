@@ -33,6 +33,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-landing':
+          'linear-gradient(180deg, #F2F4FB 50.5%, rgba(242, 244, 251, 0) 100%)',
       },
     },
   },

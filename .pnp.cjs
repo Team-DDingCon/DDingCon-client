@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["@typescript-eslint/parser", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["autoprefixer", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:10.4.17"],\
+            ["clsx", "npm:2.1.0"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-next", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:14.1.0"],\
             ["eslint-config-prettier", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:9.1.0"],\
@@ -49,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:18.2.0"],\
+            ["tailwind-merge", "npm:2.2.1"],\
             ["tailwindcss", "npm:3.4.1"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
             ["vercel", "npm:33.5.5"]\
@@ -4896,6 +4898,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["clsx", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/clsx-npm-2.1.0-29d286e1de-43fefc29b6.zip/node_modules/clsx/",\
+          "packageDependencies": [\
+            ["clsx", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["code-block-writer", [\
         ["npm:10.1.1", {\
           "packageLocation": "./.yarn/cache/code-block-writer-npm-10.1.1-ffc8599f68-e048037acb.zip/node_modules/code-block-writer/",\
@@ -5159,6 +5170,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["@typescript-eslint/parser", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["autoprefixer", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:10.4.17"],\
+            ["clsx", "npm:2.1.0"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-next", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:14.1.0"],\
             ["eslint-config-prettier", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:9.1.0"],\
@@ -5172,6 +5184,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.2.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:18.2.0"],\
+            ["tailwind-merge", "npm:2.2.1"],\
             ["tailwindcss", "npm:3.4.1"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
             ["vercel", "npm:33.5.5"]\
@@ -9959,6 +9972,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["synckit", "npm:0.8.8"],\
             ["@pkgr/core", "npm:0.1.1"],\
             ["tslib", "npm:2.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-merge", [\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/tailwind-merge-npm-2.2.1-8dc1f0b72b-fd149409b1.zip/node_modules/tailwind-merge/",\
+          "packageDependencies": [\
+            ["tailwind-merge", "npm:2.2.1"],\
+            ["@babel/runtime", "npm:7.24.0"]\
           ],\
           "linkType": "HARD"\
         }]\
