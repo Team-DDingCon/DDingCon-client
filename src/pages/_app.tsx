@@ -1,3 +1,5 @@
+import Footer from '@components/common/Footer';
+
 import '@styles/globals.css';
 import type { AppProps } from 'next/app';
 import localFont from 'next/font/local';
@@ -30,6 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
       className={`w-full max-w-[480px] mx-auto h-screen overflow-scroll ${pretendard.variable}`}
     >
       <Component {...pageProps} />
+      <Footer />
     </main>
   );
 }
