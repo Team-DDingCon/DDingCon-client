@@ -30,3 +30,13 @@
     @apply rounded-[8px] w-full h-[60px] bold-16-2 cursor-pointer flex items-center justify-center;
   }
 }
+
+@layer base {
+  *:not(.scrollbar-show)::-webkit-scrollbar {
+    display: none;
+  }
+
+  li {
+    @apply list-none;
+  }
+}

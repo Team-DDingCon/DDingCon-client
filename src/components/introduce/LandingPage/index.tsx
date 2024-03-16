@@ -6,6 +6,7 @@ import SecondGif from 'public/gif/LandingPage/second.gif';
 import ThirdGif from 'public/gif/LandingPage/third.gif';
 import FourthGif from 'public/gif/LandingPage/fourth.gif';
 import FifthGif from 'public/gif/LandingPage/fifth.gif';
+import SixthGif from 'public/gif/LandingPage/sixth.gif';
 import SeventhGif from 'public/gif/LandingPage/seventh.gif';
 import FirstSectionImage from 'public/assets/images/LandingPage/first.png';
 import SecondSectionImage from 'public/assets/images/LandingPage/second.png';
@@ -66,6 +67,11 @@ export default function LandingPage() {
       </div>
       <div className="relative">
         <Image src={FourthSectionImage} alt="네번째 섹션 이미지" />
+        <Image
+          src={SixthGif}
+          alt="여섯번째 섹션 영상"
+          className="absolute bottom-[27%] left-0 right-0 mx-auto w-[calc(100%-40px)]"
+        />
       </div>
       <div className="relative">
         <Image src={FifthSectionImage} alt="다섯번째 섹션 이미지" />
