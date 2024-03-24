@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["@typescript-eslint/parser", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["autoprefixer", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:10.4.17"],\
+            ["class-variance-authority", "npm:0.7.0"],\
             ["clsx", "npm:2.1.0"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-next", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:14.1.0"],\
@@ -4880,6 +4881,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["class-variance-authority", [\
+        ["npm:0.7.0", {\
+          "packageLocation": "./.yarn/cache/class-variance-authority-npm-0.7.0-1a63840197-e7fd1fab43.zip/node_modules/class-variance-authority/",\
+          "packageDependencies": [\
+            ["class-variance-authority", "npm:0.7.0"],\
+            ["clsx", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["clean-stack", [\
         ["npm:2.2.0", {\
           "packageLocation": "./.yarn/cache/clean-stack-npm-2.2.0-a8ce435a5c-2ac8cd2b2f.zip/node_modules/clean-stack/",\
@@ -4899,6 +4910,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["clsx", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/clsx-npm-2.0.0-afafbbe44a-a2cfb2351b.zip/node_modules/clsx/",\
+          "packageDependencies": [\
+            ["clsx", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.1.0", {\
           "packageLocation": "./.yarn/cache/clsx-npm-2.1.0-29d286e1de-43fefc29b6.zip/node_modules/clsx/",\
           "packageDependencies": [\
@@ -5170,6 +5188,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["@typescript-eslint/parser", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:7.1.0"],\
             ["autoprefixer", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:10.4.17"],\
+            ["class-variance-authority", "npm:0.7.0"],\
             ["clsx", "npm:2.1.0"],\
             ["eslint", "npm:8.57.0"],\
             ["eslint-config-next", "virtual:1fa926e7036846fa90b388d7cd07986897b992e68675dabe5096cc583dd90ad86f2bb8e6763e888592b10afc2f7ab19da29fe8ccc59e241cbd5d6d726851c929#npm:14.1.0"],\
